@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "encode-sans";
+    src:url("../fonts/encode-sans/EncodeSans-ExtraBold.ttf") format("ttf");
+}
+
+body{
+    margin: 0;
+    font-family: 'encode-sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+    background-color: #ffffff;
+}
+
+/* Header */
+
+.navbar{
+    top: 0;
+    background: #fff;
+    margin: 0;
+    height: 10%;
+}
+.nav-link{
+    color: #1A2F52;
+}
+.nav-link:hover{
+    color:#cd3a41;
+}
+.dropbtn{
+    border: none;
+}
+.dropbtn{
+    border: none;
+}  
+.dropbtn:hover .nav-navbar{
+    height: 20%;
+}
+
+    
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;    
+}
+.dropdown-content a{
+    color: #1A2F52;
+    text-decoration: none;
+    display: block;
+    text-align: justify;
+    padding-left: 8px;
+}
+.dropdown:hover .dropdown-content{
+      display: block;
+}
+.nav-link .arrow {
+    border-top: 3px solid #1A2F52;
+}
+.nav-navbar .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-bottom: 2px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+.logo{
+    width : 150px;
+    height : 100px;
+}
+.btn{
+    margin : 10px;
+    border-radius: 0.25em;
+}
+.btn-c1 {
+    color: #ffffff;
+    background: #1A2F52;
+    border: 1px solid #1A2F52;
+}
+.btn-c1:hover {
+    color: #1A2F52;
+    background: #fff;
+    border: 1px solid #1A2F52;
+}
+.btn-c2 {
+    color: #1A2F52;
+    background: #fff;
+    border: 1px solid #1A2F52;
+}
+.btn-c2:hover {
+    color: #ffffff;
+    background: #1A2F52;
+    border: 1px solid #1A2F52;
+}
+
